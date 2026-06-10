@@ -7,83 +7,155 @@
     <title>Лотос ИТ</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/style.css" />
+
     <link rel="stylesheet" href="css/media.css" />
     <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
-    <script src="js/index.js" async></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/index.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+      defer
+    ></script>
   </head>
   <body>
-    <header>
-      <div>
-        <h1>Лотос ИТ -<br />Системный<br />интегратор</h1>
-      </div>
-      <div class="header-img">
-        <img src="./Лотос ИТ_files/system-integration.svg" />
-      </div>
+    <header class="container">
+      <nav
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">Лотос ИТ</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page"
+              >Направления</a
+            >
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Клиенты</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">О компании</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">8 (8142) 719700</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <main>
+
+    <main class="container">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="img/system-integration.svg"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            Лотос ИТ - системный интегратор
+          </h1>
+          <!-- <p class="lead">
+          Quickly design and customize responsive mobile-first sites with
+          Bootstrap, the world’s most popular front-end open source toolkit,
+          featuring Sass variables and mixins, responsive grid system, extensive
+          prebuilt components, and powerful JavaScript plugins.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+            Primary
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            Default
+          </button>
+        </div> -->
+        </div>
+      </div>
       <div id="company-activities" class="main-item company-activities">
         <div class="h2-wrapper">
           <h2>Направления деятельности</h2>
         </div>
-        <div class="company-activities-items">
-          <div class="company-activity">
-            <div class="company-activity-wrapper">
-              <div class="activity-img">
-                <img src="./Лотос ИТ_files/cash_register.svg" />
+        <div class="company-activities-items container">
+          <div class="row">
+            <div class="company-activity col">
+              <div class="company-activity-wrapper row">
+                <div class="activity-img col">
+                  <img src="./img/cash_register.svg" />
+                </div>
+                <div class="activity-text col">
+                  <h3>Обслуживание торговой техники</h3>
+                </div>
               </div>
-              <div class="activity-text">
-                <h3>Обслуживание торговой техники</h3>
+            </div>
+            <div class="company-activity col">
+              <div class="company-activity-wrapper row">
+                <div class="activity-img col">
+                  <img src="./img/computer.svg" />
+                </div>
+                <div class="activity-text col">
+                  <h3>Обслуживание компьютерной техники</h3>
+                </div>
+              </div>
+            </div>
+            <div class="company-activity col">
+              <div class="company-activity-wrapper row">
+                <div class="activity-img col">
+                  <img src="./img/networking-server-svgrepo-com.svg" />
+                </div>
+                <div class="activity-text col">
+                  <h3>Системное администрирование и серверные решения</h3>
+                </div>
               </div>
             </div>
           </div>
-          <div class="company-activity">
-            <div class="company-activity-wrapper">
-              <div class="activity-img">
-                <img src="./Лотос ИТ_files/computer.svg" />
-              </div>
-              <div class="activity-text">
-                <h3>Обслуживание компьютерной техники</h3>
-              </div>
-            </div>
-          </div>
-          <div class="company-activity">
-            <div class="company-activity-wrapper">
-              <div class="activity-img">
-                <img src="./Лотос ИТ_files/networking-server-svgrepo-com.svg" />
-              </div>
-              <div class="activity-text">
-                <h3>Системное администрирование и серверные решения</h3>
+
+          <div class="row">
+            <div class="company-activity col">
+              <div class="company-activity-wrapper row">
+                <div class="activity-img col">
+                  <img src="./img/logo1cm.svg" />
+                </div>
+                <div class="activity-text col">
+                  <h3>Разработка и сопровождение продуктов 1С</h3>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="company-activity">
-            <div class="company-activity-wrapper">
-              <div class="activity-img">
-                <img src="./Лотос ИТ_files/logo1cm.svg" />
-              </div>
-              <div class="activity-text">
-                <h3>Разработка и сопровождение продуктов 1С</h3>
-              </div>
-            </div>
-          </div>
-          <div class="company-activity">
-            <div class="company-activity-wrapper">
-              <div class="activity-img">
-                <img src="./Лотос ИТ_files/network.svg" />
-              </div>
-              <div class="activity-text">
-                <h3>Монтаж структурированных кабельных систем</h3>
+            <div class="company-activity col">
+              <div class="company-activity-wrapper row">
+                <div class="activity-img col">
+                  <img src="./img/network.svg" />
+                </div>
+                <div class="activity-text col">
+                  <h3>Монтаж структурированных кабельных систем</h3>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="company-activity">
-            <div class="company-activity-wrapper">
-              <div class="activity-img">
-                <img src="./Лотос ИТ_files/web-development.svg" />
-              </div>
-              <div class="activity-text">
-                <h3>Разработка и сопровождение сайтов</h3>
+            <div class="company-activity col">
+              <div class="company-activity-wrapper row">
+                <div class="activity-img col">
+                  <img src="./img/web-development.svg" />
+                </div>
+                <div class="activity-text col">
+                  <h3>Разработка и сопровождение сайтов</h3>
+                </div>
               </div>
             </div>
           </div>
@@ -132,7 +204,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/sigma.jpg" />
+                    <img src="./img/sigma.jpg" />
                   </div>
                 </div>
                 <div
@@ -143,7 +215,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/lotos-sity.png" />
+                    <img src="./img/lotos-sity.png" />
                   </div>
                 </div>
                 <div
@@ -153,7 +225,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/sigma-u-doma.png" />
+                    <img src="./img/sigma-u-doma.png" />
                   </div>
                 </div>
                 <div
@@ -163,7 +235,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/development-group.jpg" />
+                    <img src="./img/development-group.jpg" />
                   </div>
                 </div>
                 <div
@@ -173,7 +245,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/karelia-online.png" />
+                    <img src="./img/karelia-online.png" />
                   </div>
                 </div>
                 <div
@@ -183,7 +255,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/lotos-gurman.jpg" />
+                    <img src="./img/lotos-gurman.jpg" />
                   </div>
                 </div>
                 <div
@@ -193,7 +265,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/lotos-plaza.png" />
+                    <img src="./img/lotos-plaza.png" />
                   </div>
                 </div>
                 <div
@@ -203,7 +275,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/raduga.png" />
+                    <img src="./img/raduga.png" />
                   </div>
                 </div>
                 <div
@@ -213,7 +285,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/severnaya.jpg" />
+                    <img src="./img/severnaya.jpg" />
                   </div>
                 </div>
                 <div
@@ -223,7 +295,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/sigma-cafe.png" />
+                    <img src="./img/sigma-cafe.png" />
                   </div>
                 </div>
                 <div
@@ -233,7 +305,7 @@
                   tabindex="0"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/sigma.jpg" />
+                    <img src="./img/sigma.jpg" />
                   </div>
                 </div>
                 <div
@@ -243,7 +315,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/lotos-sity.png" />
+                    <img src="./img/lotos-sity.png" />
                   </div>
                 </div>
                 <div
@@ -254,7 +326,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/sigma-u-doma.png" />
+                    <img src="./img/sigma-u-doma.png" />
                   </div>
                 </div>
                 <div
@@ -265,7 +337,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/development-group.jpg" />
+                    <img src="./img/development-group.jpg" />
                   </div>
                 </div>
                 <div
@@ -276,7 +348,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/karelia-online.png" />
+                    <img src="./img/karelia-online.png" />
                   </div>
                 </div>
                 <div
@@ -287,7 +359,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/lotos-gurman.jpg" />
+                    <img src="./img/lotos-gurman.jpg" />
                   </div>
                 </div>
                 <div
@@ -298,7 +370,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/lotos-plaza.png" />
+                    <img src="./img/lotos-plaza.png" />
                   </div>
                 </div>
                 <div
@@ -309,7 +381,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/raduga.png" />
+                    <img src="./img/raduga.png" />
                   </div>
                 </div>
                 <div
@@ -320,7 +392,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/severnaya.jpg" />
+                    <img src="./img/severnaya.jpg" />
                   </div>
                 </div>
                 <div
@@ -331,7 +403,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/sigma-cafe.png" />
+                    <img src="./img/sigma-cafe.png" />
                   </div>
                 </div>
                 <div
@@ -342,7 +414,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/sigma.jpg" />
+                    <img src="./img/sigma.jpg" />
                   </div>
                 </div>
                 <div
@@ -353,7 +425,7 @@
                   tabindex="-1"
                 >
                   <div class="client-image">
-                    <img src="./Лотос ИТ_files/lotos-sity.png" />
+                    <img src="./img/lotos-sity.png" />
                   </div>
                 </div>
               </div>
@@ -399,7 +471,7 @@
         <div class="phone"><b>Телефон:</b> 8(8142) 719-700</div>
         <div class="map">
           <iframe
-            src="./Лотос ИТ_files/saved_resource.html"
+            src="./img/saved_resource.html"
             frameborder="0"
             allowfullscreen="true"
             width="100%"
@@ -409,5 +481,7 @@
         </div>
       </div>
     </main>
+
+    <footer class="container"></footer>
   </body>
 </html>
