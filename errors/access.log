@@ -1,0 +1,7 @@
+::1 - - [10/Jun/2026:18:32:45 +0300] "GET / HTTP/1.1" 200 785 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36"
+::1 - - [10/Jun/2026:18:32:45 +0300] "GET /css/normalize.css HTTP/1.1" 200 2094 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36"
+::1 - - [10/Jun/2026:18:32:45 +0300] "GET /css/fonts.css HTTP/1.1" 200 594 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36"
+::1 - - [10/Jun/2026:18:32:45 +0300] "GET /css/style.css HTTP/1.1" 200 280 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36"
+::1 - - [10/Jun/2026:18:32:45 +0300] "GET /css/media.css HTTP/1.1" 200 402 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36"
+::1 - - [10/Jun/2026:18:32:45 +0300] "GET /js/index.js HTTP/1.1" 200 504 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36"
+::1 - - [10/Jun/2026:18:32:45 +0300] "GET /img/favicon.svg HTTP/1.1" 200 1699 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36"
