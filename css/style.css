@@ -2,6 +2,31 @@ img{
 	height:100px;
 }
 
-header footer {
+body, h1, .fs-4 {
+  color: #1B589B;
+}
+
+.fs-4, nav, .nav-link {
+  color: white;
+}
+
+.nav-logo {
+  height: 80px;
+}
+
+header, footer {
   background-color: #133e6c;
+}
+
+footer {
+  padding: 15px 25px;
+  column-gap: 30px;
+}
+
+footer a {
+  color: white;
+}
+
+.main-item {
+  padding-bottom: 2em;
 }

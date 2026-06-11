@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Лотос ИТ</title>
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/fonts.css" />
 
     <link rel="stylesheet" href="css/media.css" />
@@ -26,33 +27,29 @@
     ></script>
   </head>
   <body>
-    <header class="container">
-      <nav
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-      >
+    <header>
+      <nav class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a
           href="/"
           class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
         >
-          <svg class="bi me-2" width="40" height="32" aria-hidden="true">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-          <span class="fs-4">Лотос ИТ</span>
+          <div class="row align-items-center p-1">
+            <img class="nav-logo col" src="img/logo-footer.svg" />
+            <span class="fs-4 col">Лотос&nbsp;ИТ</span>
+          </div>
         </a>
-        <ul class="nav nav-pills">
+        <ul class="nav nav-pills align-items-center">
           <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page"
-              >Направления</a
-            >
+            <a href="#company-activities" class="nav-link">Направления</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Клиенты</a>
+            <a href="#clients" class="nav-link">Клиенты</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">О компании</a>
+            <a href="#about" class="nav-link">О компании</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Контакты</a>
+            <a href="#contacts" class="nav-link">Контакты</a>
           </li>
           <li class="nav-item">
             <a href="tel:+78142719700" class="nav-link">8 (8142) 719700</a>
@@ -63,7 +60,7 @@
 
     <main class="container">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
+        <div class="col-10 col-sm-8 col-lg-6 col">
           <img
             src="img/system-integration.svg"
             class="d-block mx-lg-auto img-fluid"
@@ -73,24 +70,8 @@
             loading="lazy"
           />
         </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-            Лотос ИТ - системный интегратор
-          </h1>
-          <!-- <p class="lead">
-          Quickly design and customize responsive mobile-first sites with
-          Bootstrap, the world’s most popular front-end open source toolkit,
-          featuring Sass variables and mixins, responsive grid system, extensive
-          prebuilt components, and powerful JavaScript plugins.
-        </p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-            Primary
-          </button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-            Default
-          </button>
-        </div> -->
+        <div class="col-lg-6 col">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Лотос ИТ - системный интегратор</h1>
         </div>
       </div>
       <div id="company-activities" class="main-item company-activities">
@@ -166,21 +147,16 @@
         </div>
         <div class="h3-wrapper">
           <h3>Коды видов деятельности:</h3>
-          <div>
-            Основной ОКВЭД - 62.01 (разработка компьтерного программного
-            обеспечения).
-          </div>
+          <div>Основной ОКВЭД - 62.01 (разработка компьтерного программного обеспечения).</div>
           <div style="margin-bottom: 15px">
-            Коды видов деятельности в области ИТ-технологий, осуществляемых
-            организацией, в соответствии с перечнем видов деятельности, утв.
-            приказом Минцифры России от 11.05.2023 № 449 – 1.01, 1.05 ,4.01,
-            28.01, 28.02.
+            Коды видов деятельности в области ИТ-технологий, осуществляемых организацией, в
+            соответствии с перечнем видов деятельности, утв. приказом Минцифры России от 11.05.2023
+            № 449 – 1.01, 1.05 ,4.01, 28.01, 28.02.
           </div>
           <h3>Стоимость работ:</h3>
           <div>
-            Объем работ и состав команды специалистов согласовывается отдельно
-            по каждому проекту. Стоимость одного часа работы специалиста
-            составляет от 3000 рублей, НДС не облагается
+            Объем работ и состав команды специалистов согласовывается отдельно по каждому проекту.
+            Стоимость одного часа работы специалиста составляет от 3000 рублей, НДС не облагается
           </div>
         </div>
       </div>
@@ -441,16 +417,10 @@
           <h2>О компании</h2>
         </div>
         <div>
-          <h3>
-            Лотос ИТ - Карельская компания, специализирующаяся на информационных
-            технологиях.
-          </h3>
-          <p style="margin-bottom: 5px">
-            Компания входит в реестр аккредитованных ИТ-компаний.
-          </p>
+          <h3>Лотос ИТ - Карельская компания, специализирующаяся на информационных технологиях.</h3>
+          <p style="margin-bottom: 5px">Компания входит в реестр аккредитованных ИТ-компаний.</p>
           <p style="margin-bottom: 20px">
-            Несмотря на небольшой возраст, предприятие успешно внедрило ряд
-            проектов
+            Несмотря на небольшой возраст, предприятие успешно внедрило ряд проектов
           </p>
           <p style="margin-bottom: 7px">Направления деятельности:</p>
           <ul>
@@ -468,13 +438,12 @@
           <h2>Контакты</h2>
         </div>
         <div class="address">
-          <b>Адрес:</b> Карелия Респ, г Петрозаводск, р-н Древлянка, пр-кт
-          Лесной, д. 47, офис 77
+          <b>Адрес:</b> Карелия Респ, г Петрозаводск, р-н Древлянка, пр-кт Лесной, д. 47, офис 77
         </div>
         <div class="phone"><b>Телефон:</b> 8(8142) 719-700</div>
         <div class="map">
           <iframe
-            src="./img/saved_resource.html"
+            src="https://yandex.ru/map-widget/v1/?lang=ru_RU&amp;scroll=true&amp;source=constructor-api&amp;um=constructor%3A2745211a223ceb1d5fc85fced4f4972be1383e893d10898bcbc7ddbb5e8357ce"
             frameborder="0"
             allowfullscreen="true"
             width="100%"
@@ -485,23 +454,31 @@
       </div>
     </main>
 
-    <footer>
-      <div class="footer-left">
-        <div class="logo-footer"><img src="img/logo-footer.svg" /></div>
+    <footer class="row">
+      <div class="col">
+        <div class="logo-footer">
+          <img src="img/logo-footer.svg" />
+        </div>
       </div>
-      <div class="footer-middle">
-        <ul>
-          <li>
-            <a class="menu-item" href="#company-activities">Направления</a>
+      <div class="col">
+        <ul class="nav align-items-center">
+          <li class="nav-item">
+            <a href="#company-activities" class="nav-link">Направления</a>
           </li>
-          <li><a class="menu-item" href="#clients">Клиенты</a></li>
-          <li>
-            <a class="menu-item" href="#about"><nobr>О компании</nobr></a>
+          <li class="nav-item">
+            <a href="#clients" class="nav-link">Клиенты</a>
           </li>
-          <li><a class="menu-item" href="#contacts">Контакты</a></li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">О компании</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Контакты</a>
+          </li>
+          <li class="nav-item">
+            <a href="tel:+78142719700" class="nav-link"> 8 (8142) 719-700 </a>
+          </li>
         </ul>
       </div>
-      <div class="footer-right"></div>
     </footer>
   </body>
 </html>
