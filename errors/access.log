@@ -2144,3 +2144,4 @@
 ::1 - - [11/Jun/2026:10:35:17 +0300] "GET /img/logo-footer.svg HTTP/1.1" 304 248 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 YaBrowser/26.4.0.0 Safari/537.36"
 ::1 - - [11/Jun/2026:10:35:17 +0300] "GET /img/system-integration.svg HTTP/1.1" 304 250 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 YaBrowser/26.4.0.0 Safari/537.36"
 ::1 - - [11/Jun/2026:10:35:17 +0300] "GET /img/saved_resource.html HTTP/1.1" 404 527 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 YaBrowser/26.4.0.0 Safari/537.36"
+::1 - - [15/Jun/2026:09:28:43 +0300] "GET /apple-touch-icon.png HTTP/1.1" 404 528 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 YaBrowser/26.4.0.0 Safari/537.36"
