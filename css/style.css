@@ -21,3 +21,24 @@ header, footer {
 .main-item {
   padding-bottom: 2em;
 }
+
+.swiper-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-item {
+  width: 400px;
+  display: flex;
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.card-image {
+  /* width: 100%; */
+  aspect-ratio: 16/9;
+  /* object-fit: cover; */
+}
