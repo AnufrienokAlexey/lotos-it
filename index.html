@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/fonts.css" />
-
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <link
@@ -17,9 +18,6 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -27,8 +25,6 @@
       crossorigin="anonymous"
       defer
     ></script>
-
-    <!-- <script src="js/index.js" defer></script> -->
   </head>
   <body>
     <header>
@@ -63,6 +59,49 @@
     </header>
 
     <main class="container">
+      <div class="carousel">
+        <button class="carousel-arrow carousel-arrow-prev">
+          <i class="fa fa-arrow-left"></i>
+        </button>
+
+        <button class="carousel-arrow carousel-arrow-next">
+          <i class="fa fa-arrow-right"></i>
+        </button>
+
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <img src="./img/clients/lotos-plaza.png" alt="" />
+          </div>
+          <div class="carousel-slide">
+            <img src="./img/clients/karelia-online.png" alt="" />
+          </div>
+          <div class="carousel-slide">
+            <img src="./img/clients/raduga.png" alt="" />
+          </div>
+          <div class="carousel-slide">
+            <img src="./img/clients/development-group.jpg" alt="" />
+          </div>
+          <div class="carousel-slide">
+            <img src="./img/clients/lotos-sity.png" alt="" />
+          </div>
+          <div class="carousel-slide">
+            <img src="./img/clients/lotos-gurman.jpg" alt="" />
+          </div>
+          <div class="carousel-slide">
+            <img src="./img/clients/sigma.jpg" alt="" />
+          </div>
+          <div class="carousel-slide">
+            <img src="./img/clients/sigma-cafe.png" alt="" />
+          </div>
+          <div class="carousel-slide">
+            <img src="./img/clients/sigma-u-doma.png" alt="" />
+          </div>
+          <div class="carousel-slide">
+            <img src="./img/clients/severnaya.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6 col">
           <img
@@ -168,76 +207,6 @@
         </div>
       </div>
 
-      <!-- Slider main container -->
-      <div class="swiper-container">
-        <!-- Additional required wrapper -->
-        <div class="card-list swiper-wrapper">
-          <!-- Slides -->
-          <div class="card-item swiper-slide">
-            <img src="./img/clients/development-group.jpg" alt="" class="card-image" />
-          </div>
-          <div class="card-item swiper-slide">
-            <img src="./img/clients/karelia-online.png" alt="" class="card-image" />
-          </div>
-          <div class="card-item swiper-slide">
-            <img src="./img/clients/lotos-gurman.jpg" alt="" class="card-image" />
-          </div>
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination">
-          <span class="swiper-pagination-bullet">0</span>
-        </div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
-      </div>
-
-      <div id="clients" class="main-item clients">
-        <div class="h2-wrapper">
-          <h2>Клиенты</h2>
-        </div>
-        <div class="company-activities-items container">
-          <div class="row">
-            <div class="activity-img col">
-              <img src="./img/clients/development-group.jpg" />
-            </div>
-            <div class="activity-img col">
-              <img src="./img/clients/karelia-online.png" />
-            </div>
-            <div class="activity-img col">
-              <img src="./img/clients/lotos-gurman.jpg" />
-            </div>
-            <div class="activity-img col">
-              <img src="./img/clients/lotos-plaza.png" />
-            </div>
-            <div class="activity-img col">
-              <img src="./img/clients/lotos-sity.png" />
-            </div>
-            <div class="row justify-content-center">
-              <div class="activity-img col">
-                <img src="./img/clients/raduga.png" />
-              </div>
-              <div class="activity-img col">
-                <img src="./img/clients/severnaya.jpg" />
-              </div>
-              <div class="activity-img col">
-                <img class="align-self" src="./img/clients/sigma-cafe.png" />
-              </div>
-              <div class="activity-img col">
-                <img src="./img/clients/sigma-u-doma.png" />
-              </div>
-              <div class="activity-img col">
-                <img src="./img/clients/sigma.jpg" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div id="about" class="main-item about">
         <div class="h2-wrapper">
           <h2>О&nbsp;компании</h2>
@@ -333,8 +302,7 @@
         </ul>
       </nav>
     </footer>
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script src="js/index.js"></script>
   </body>
 </html>
