@@ -3,11 +3,11 @@ img{
 }
 
 body, h1, .fs-4 {
-  color: #1B589B;
+  color: #1B589B !important;
 }
 
 .fs-4, nav, .nav-link {
-  color: white;
+  color: white !important;
 }
 
 nav {
@@ -22,6 +22,10 @@ header, footer {
   background-color: #133e6c;
 }
 
+.h2-wrapper {
+  border-bottom: solid 3px #1B589B;
+}
+
 .main-item {
   padding-bottom: 2em;
 }
@@ -32,11 +36,12 @@ header, footer {
   align-items: center;
   margin: 0 auto;
   position: relative;
+  height: 200px;
 }
 
 .carousel-container {
   width: 100%;
-  height: 200px;
+  /* height: 200px; */
   /* padding-block: 16px 32px; */
   margin: 0px 48px;
   overflow-x: auto;
@@ -59,6 +64,7 @@ header, footer {
   justify-content: center;
   align-items: center;
   scroll-snap-align: center;
+  max-height: 100%;
 }
 
 .carousel-arrow {
