@@ -1,1 +1,2 @@
-::1 - - [20/Jun/2026:23:35:04 +0300] "GET /apple-touch-icon.png HTTP/1.1" 404 528 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 YaBrowser/26.4.0.0 Safari/537.36"
+127.0.0.1 - - [01/Jul/2026:04:13:38 +0300] "GET /apple-touch-icon.png HTTP/1.1" 404 528 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 YaBrowser/26.4.0.0 Safari/537.36"
+127.0.0.1 - - [01/Jul/2026:04:13:38 +0300] "GET /favicon.ico HTTP/1.1" 404 527 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 YaBrowser/26.4.0.0 Safari/537.36"
